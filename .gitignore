@@ -1,0 +1,65 @@
+```
+# Delphi/ Pascal compiled files
+*.dcu
+*.dcp
+*.bpl
+*.dpl
+*.map
+*.tds
+*.local
+*.identcache
+*.stat
+*.pas.bak
+*.dfm.bak
+*.res
+*.rsm
+*.log
+
+# Delphi/ Pascal backup files
+*.~*
+Backup*/
+
+# Windows files
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+Icon?
+._*
+
+# IDE specific
+*.dsk
+*.dof
+*.cfg
+*.ddp
+*.sds
+*.srs
+*.smd
+*.smp
+*.smt
+*.sms
+*.snu
+*.snup
+*.snus
+*.snut
+*.snuu
+*.snux
+*.snuy
+*.snuv
+*.snuw
+*.snuz
+
+# Build outputs
+Win32/
+Win64/
+__history/
+*.groupproj
+*.groupproj.local
+*.proj
+*.proj.local
+
+# User specific settings
+*.identcache
+*.tvsconfig
+*.Local
+*.local
+```
