@@ -1,45 +1,34 @@
 ```
-# Dependencies
-hr_system/
+# Compiled and binary files
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
 
-# Environment
+# Dependencies
+venv/
+.venv/
 .env
 .env.local
-.env.*
+*.env.*
+
+# Editors and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-env/
-ENV/
 
 # Build artifacts
-build/
 dist/
-*.egg-info/
-.coverage
-coverage/
-htmlcov/
-.mypy_cache/
-.pytest_cache/
-.tox/
-.hypothesis/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+build/
+target/
 ```
